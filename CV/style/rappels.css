@@ -1,0 +1,21 @@
+/* Pour arrêter flottement quand on utilise float*/
+section:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Quand on utilise display: inline-block*/
+section{
+	font-size: 0;
+} 
+
+article{
+	font-size: 1em;
+}
+
+/*media queries*/
+@media (min-width: 700px){
+	section{
+	}
+}
